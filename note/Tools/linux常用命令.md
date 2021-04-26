@@ -51,6 +51,7 @@ sudo rm -rf index.html
 
 ### mkdir  
 创建新文件夹
+-p:递归创建文件夹。mkdir -p xx/yy，就是一次可以创建多级文件夹，若xx文件夹不存在，则先创建xx文件夹，然后在xx文件夹下创建yy文件夹
 
 ### ls
 ls -l xx.txt
@@ -64,6 +65,10 @@ ls -l xx.txt
 cp [OPTION] Source Destination
 cp [OPTION] Source Directory
 cp [OPTION] Source-1 Source-2 Source-3 Source-n Directory
+```
+复制多个文件，{}中间不要有空格
+```
+cp /home/usr/dir/{file1,file2,file3,file4} /home/usr/destination/
 ```
 
 ### head
@@ -108,6 +113,12 @@ sudo usermod -aG docker $(whoami)
 ```
 详见[tecmint](https://www.tecmint.com/usermod-command-examples/)和[菜鸟教程](https://www.runoob.com/linux/linux-comm-usermod.html)
 
+### su
+Linux su（英文全拼：swith user）命令用于变更为其他使用者的身份，除 root 外，需要键入该使用者的密码
+```
+$ whoami //显示当前用户
+$ su root
+```
 
 ### tar  
 用于从tar文件创建、提取或列出文件
@@ -213,4 +224,24 @@ java -cp .;d:\work\other.jar;d:\work\my.jar packname.mainclassname
 linux环境：
 ```
 java -cp .:/hone/myuser/work/other.jar:/hone/myuser/work/my.jar packname.mainclassname 
+```
+
+## 文本操作
++ wc
+
+Linux wc命令用于计算字数。
+
+利用wc指令我们可以计算文件的Byte数、字数、或是列数，若不指定文件名称、或是所给予的文件名为"-"，则wc指令会从标准输入设备读取数据。
+```
+wc [-clw][--help][--version][文件...]
+```
+-c或--bytes或--chars 只显示Bytes数。
+-l或--lines 显示行数。
+-w或--words 只显示字数。
+
+
+## 系统测试
+sysbench
+```
+sudo /usr/bin/sysbench --test=fileio --file-total-size=10G --file-test-mode=rndrw --max-time=300 --max-requests=0 run
 ```

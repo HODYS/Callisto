@@ -16,3 +16,6 @@ hadoop fs -rm -r /output
 hadoop fs -get <src> <localdest>
 
 hadoop fs -copyToLocal /output .
+
+ you should change the owner of the HFiles recursively to hbase,
+hadoop fs -chown -R hbase:hbase /hfiles

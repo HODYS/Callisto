@@ -3,5 +3,8 @@
         "lib/**/*.jar",
         "d:\\download\\JAR\\hamcrest-core-1.3.jar",
         "d:\\download\\JAR\\junit-4.13.1.jar"
-    ]
+    ],
+    "files.watcherExclude": {
+        "**/target": true
+    }
 }

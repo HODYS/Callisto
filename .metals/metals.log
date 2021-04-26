@@ -1,0 +1,511 @@
+[0m2021.03.12 00:53:01 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.54.1.[0m
+[0m2021.03.12 00:53:01 INFO  time: initialize in 0.33s[0m
+[0m2021.03.12 00:53:01 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.12 00:53:01 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.12 00:53:01 WARN  no build target for: C:\Users\51216\Desktop\Work\21win\Callisto\note\Tools\test.scala[0m
+[0m2021.03.12 00:53:10 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 12:53:12 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 12:53:12 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 12:53:12 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+[0m2021.03.12 00:53:12 INFO  time: code lens generation in 10s[0m
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:07:20 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:07:47 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:07:49 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:13:30 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:13:42 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:13:45 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+for (i <- 1 to n) {
+    print(i)
+}
+ÈýÔÂ 12, 2021 1:13:46 ÉÏÎç scala.meta.internal.pc.CompilerAccess handleError
+ÑÏÖØ: file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+file%3A%2F%2F%2FC%3A%2FUsers%2F51216%2FDesktop%2FWork%2F21win%2FCallisto%2Fnote%2FTools%2Ftest.scala:1: error: expected class or object definition for
+for (i <- 1 to n) {
+^
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:16)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.Reporter.syntaxError(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter.syntaxError$(Reporter.scala:17)
+	at scala.meta.internal.parsers.Reporter$$anon$1.syntaxError(Reporter.scala:22)
+	at scala.meta.internal.parsers.ScalametaParser.statSeq(ScalametaParser.scala:4808)
+	at scala.meta.internal.parsers.ScalametaParser.topStatSeq(ScalametaParser.scala:4815)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$batchSource$1(ScalametaParser.scala:5029)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.batchSource(ScalametaParser.scala:4995)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$source$1(ScalametaParser.scala:4978)
+	at scala.meta.internal.parsers.ScalametaParser.atPos(ScalametaParser.scala:800)
+	at scala.meta.internal.parsers.ScalametaParser.autoPos(ScalametaParser.scala:816)
+	at scala.meta.internal.parsers.ScalametaParser.source(ScalametaParser.scala:4977)
+	at scala.meta.internal.parsers.ScalametaParser.entrypointSource(ScalametaParser.scala:4983)
+	at scala.meta.internal.parsers.ScalametaParser.$anonfun$parseSource$2(ScalametaParser.scala:142)
+	at scala.meta.internal.parsers.ScalametaParser.parseRule(ScalametaParser.scala:52)
+	at scala.meta.internal.parsers.ScalametaParser.parseSource(ScalametaParser.scala:142)
+	at scala.meta.parsers.Parse$.$anonfun$parseSource$1(Parse.scala:29)
+	at scala.meta.internal.parsers.ScalametaParser$$anon$257.apply(ScalametaParser.scala:5040)
+	at scala.meta.parsers.Api$XtensionParseDialectInput.parse(Api.scala:25)
+	at scala.meta.internal.semanticdb.scalac.ParseOps$XtensionCompilationUnitSource.toSource(ParseOps.scala:17)
+	at scala.meta.internal.semanticdb.scalac.TextDocumentOps$XtensionCompilationUnitDocument.toTextDocument(TextDocumentOps.scala:201)
+	at scala.meta.internal.pc.SemanticdbTextDocumentProvider.textDocument(SemanticdbTextDocumentProvider.scala:52)
+
+[0m2021.03.12 01:13:49 WARN  no build target for: C:\Users\51216\Desktop\Work\21win\Callisto\note\Tools\test.scala[0m
+import org.apache.spark.rdd.RDD
+
+object Task1 {
+
+  /**
+    * Given an RDD of (docID, List[Tokens]) it should return an RDD of
+    * (Token, Document Frequency).
+    *
+    * Document frequency is in how many documents a token is present in.
+    *
+    * Note that if a document has the tokens:
+    *
+    *                     [stay, hungry, stay, foolish]
+    *
+    * "stay" should only be counted once for that document.
+    *
+    * There is *no* need to make any processing to the tokens (like lowercase).
+    *
+    * @param tokenizedCorpus the RDD of (docID, List[Token]).
+    * @return an RDD of (Token, Document Frequency)
+    */
+  def documentFrequency(tokenizedCorpus: RDD[(String, Seq[String])]): RDD[(String, Int)] = {
+    // TODO - Remove `???` and write your solution
+    tokenizedCorpus.map{case (k,v) => (v,k)}.select($"docID", explode($"Token")).dictinct()
+  }
+
+  /**
+    * YOU DO NOT NEED TO CHANGE ANYTHING IN THIS FUNCTION.
+    *
+    * Given a list of tokens, it finds the unique tokens.
+    * @param tokens a list of tokens.
+    * @return a unique set of tokens.
+    */
+  def unique(tokens: Seq[String]): Set[String] = tokens.toSet
+
+}
+
+ÈýÔÂ 12, 2021 1:14:05 ÉÏÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.03.14 11:01:34 INFO  shutting down Metals[0m
+[0m2021.03.22 16:07:48 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.54.3.[0m
+[0m2021.03.22 16:07:48 INFO  time: initialize in 0.36s[0m
+[0m2021.03.22 16:07:48 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.22 16:07:48 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.22 17:47:55 INFO  shutting down Metals[0m
+[0m2021.03.28 11:05:58 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.54.3.[0m
+[0m2021.03.28 11:05:58 INFO  time: initialize in 0.39s[0m
+[0m2021.03.28 11:05:58 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.28 11:05:58 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.28 18:44:41 INFO  shutting down Metals[0m
+[0m2021.03.31 10:27:05 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.54.3.[0m
+[0m2021.03.31 10:27:05 INFO  time: initialize in 0.38s[0m
+[0m2021.03.31 10:27:06 WARN  Build server is not auto-connectable.[0m
+[0m2021.03.31 10:27:06 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.03.31 10:55:25 INFO  shutting down Metals[0m
+[0m2021.04.04 17:32:08 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.0.[0m
+[0m2021.04.04 17:32:09 INFO  time: initialize in 0.34s[0m
+[0m2021.04.04 17:32:09 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.04 17:32:09 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ËÄÔÂ 05, 2021 11:49:22 ÉÏÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+ËÄÔÂ 05, 2021 11:50:27 ÉÏÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.04.05 18:54:57 INFO  shutting down Metals[0m
+[0m2021.04.05 19:18:48 INFO  Started: Metals version 0.10.0 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.0.[0m
+[0m2021.04.05 19:18:48 INFO  time: initialize in 0.45s[0m
+[0m2021.04.05 19:18:48 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.05 19:18:48 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.06 18:00:38 INFO  shutting down Metals[0m
+[0m2021.04.08 15:42:26 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.0.[0m
+[0m2021.04.08 15:42:26 INFO  time: initialize in 0.35s[0m
+[0m2021.04.08 15:42:26 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.08 15:42:26 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.09 14:55:23 INFO  shutting down Metals[0m
+[0m2021.04.09 23:13:02 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.1.[0m
+[0m2021.04.09 23:13:02 INFO  time: initialize in 0.36s[0m
+[0m2021.04.09 23:13:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.09 23:13:02 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.10 01:46:07 INFO  shutting down Metals[0m
+[0m2021.04.10 14:42:08 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.1.[0m
+[0m2021.04.10 14:42:08 INFO  time: initialize in 0.43s[0m
+[0m2021.04.10 14:42:08 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.10 14:42:08 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.10 15:11:52 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.1.[0m
+[0m2021.04.10 15:11:53 INFO  time: initialize in 0.51s[0m
+[0m2021.04.10 15:11:57 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.10 15:11:57 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.10 19:32:00 INFO  shutting down Metals[0m
+[0m2021.04.14 00:24:51 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.1.[0m
+[0m2021.04.14 00:24:52 INFO  time: initialize in 0.36s[0m
+[0m2021.04.14 00:24:52 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.14 00:24:52 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.14 18:18:08 INFO  shutting down Metals[0m
+[0m2021.04.16 00:15:50 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.16 00:15:51 INFO  time: initialize in 0.36s[0m
+[0m2021.04.16 00:15:51 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.16 00:15:51 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.16 01:47:50 INFO  shutting down Metals[0m
+[0m2021.04.16 17:55:54 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.16 17:55:54 INFO  time: initialize in 0.35s[0m
+[0m2021.04.16 17:55:54 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.16 17:55:54 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.17 01:39:59 INFO  shutting down Metals[0m
+[0m2021.04.18 14:47:02 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.18 14:47:02 INFO  time: initialize in 0.34s[0m
+[0m2021.04.18 14:47:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.18 14:47:02 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.18 16:25:57 INFO  shutting down Metals[0m
+[0m2021.04.19 20:57:49 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.19 20:57:49 INFO  time: initialize in 0.47s[0m
+[0m2021.04.19 20:57:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.19 20:57:50 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.19 21:36:07 INFO  shutting down Metals[0m
+[0m2021.04.20 19:22:18 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.20 19:22:18 INFO  time: initialize in 0.41s[0m
+[0m2021.04.20 19:22:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.20 19:22:18 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.20 22:35:45 INFO  shutting down Metals[0m
+[0m2021.04.21 16:02:22 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.21 16:02:22 INFO  time: initialize in 0.4s[0m
+[0m2021.04.21 16:02:23 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.21 16:02:23 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.21 16:34:51 INFO  shutting down Metals[0m
+[0m2021.04.22 16:18:39 INFO  Started: Metals version 0.10.1 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.22 16:18:39 INFO  time: initialize in 0.37s[0m
+[0m2021.04.22 16:18:39 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.22 16:18:39 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.23 16:22:28 INFO  shutting down Metals[0m
+[0m2021.04.25 20:19:17 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.25 20:19:18 INFO  time: initialize in 0.39s[0m
+[0m2021.04.25 20:19:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.25 20:19:18 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.25 22:48:19 INFO  shutting down Metals[0m

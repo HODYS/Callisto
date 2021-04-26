@@ -11,6 +11,11 @@ dataframe.columns = new_col
 ```
 ```
 
+### 数据选取
+并列选取
+```python
+df.loc[(df['A']=='a') & df['A']=='b') ]  # 此处只能用&，用and会报错，此外也要用圆括号括起来 
+```
 
 索引
 https://www.shanelynn.ie/select-pandas-dataframe-rows-and-columns-using-iloc-loc-and-ix/
