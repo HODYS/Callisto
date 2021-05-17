@@ -245,3 +245,9 @@ sysbench
 ```
 sudo /usr/bin/sysbench --test=fileio --file-total-size=10G --file-test-mode=rndrw --max-time=300 --max-requests=0 run
 ```
+
+## 端口
+查看端口占用情况
+```
+lsof -i:8000
+```

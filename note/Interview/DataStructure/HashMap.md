@@ -73,3 +73,8 @@ Java的超类Object类已经定义了equals()和hashCode()方法，在Obeject类
 因为可能有哈希冲突（所谓碰撞（冲突）也就是指的是不同的对象得到相同 的 hashCode ）
 
 我们刚刚也提到了 HashSet ,如果 HashSet 在对⽐的时候，同样的 hashcode 有多个对象，它会 使⽤ equals() 来判断是否真的相同。也就是说 hashcode 只是⽤来缩⼩查找成本。
+
+## 一些问题
+** 如果已知所需容量，如何设置hashmap的初始capacity？
+initialCapacity = desiredCapacity / loadFactor + 1
+见[java中hashmap容量的初始化](https://www.cnblogs.com/yanggb/p/11613070.html)

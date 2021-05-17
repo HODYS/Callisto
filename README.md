@@ -49,3 +49,5 @@ A rep that stores my struggle. This is named in memory of Grencia in Cowboy Bebo
 Hi! Long time no see.过了一个“一事无成”的二月，很明显我上次立的flag完全没有实现。这次的更新补了一些cc相关的笔记，完全是写给自己的所以不怎么严谨也不怎么完整，希望没有人当真。三月来了，因为二月份什么也没做，压力感觉骤然增加。未来十分渺茫，也没有什么信心能找到实习。这个月要overload了，不能像二月那样过得这么自由散漫了，要用更高的标准来规划时间。Please prove me that you are a cmu student.
 * 4/26
 我又回来更新了，断更了一个多月了，终于找到作业压力比较小的一天了。小小喘息一下，又要进入考试周了。更新了一些准备过程的note。学期快结束了，希望能赶紧恢复日更:)。
+* 5/17
+终于放假了555，看到我2/2的时候写的课业目标是A突然觉得有点讽刺hhh。没有什么新内容，更了17683的部分笔记，简要地写了String的hashCode用了31的原因之一。象征性恢复日更:)

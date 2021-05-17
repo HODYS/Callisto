@@ -509,3 +509,65 @@ object Task1 {
 [0m2021.04.25 20:19:18 WARN  Build server is not auto-connectable.[0m
 [0m2021.04.25 20:19:18 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.04.25 22:48:19 INFO  shutting down Metals[0m
+[0m2021.04.26 16:29:53 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.26 16:29:53 INFO  time: initialize in 0.42s[0m
+[0m2021.04.26 16:29:53 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.26 16:29:53 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.26 20:37:16 INFO  shutting down Metals[0m
+[0m2021.04.28 16:55:47 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.28 16:55:47 INFO  time: initialize in 0.36s[0m
+[0m2021.04.28 16:55:47 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.28 16:55:47 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.28 20:37:05 INFO  shutting down Metals[0m
+[0m2021.04.29 22:10:02 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.29 22:10:03 INFO  time: initialize in 0.37s[0m
+[0m2021.04.29 22:10:03 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.29 22:10:03 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.04.30 13:05:43 INFO  shutting down Metals[0m
+[0m2021.04.30 13:20:01 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.04.30 13:20:02 INFO  time: initialize in 0.36s[0m
+[0m2021.04.30 13:20:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.30 13:20:02 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ËÄÔÂ 30, 2021 9:21:54 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+ËÄÔÂ 30, 2021 9:23:04 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+ËÄÔÂ 30, 2021 9:24:10 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.04.30 21:29:17 INFO  shutting down Metals[0m
+[0m2021.05.02 02:05:32 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.05.02 02:05:32 INFO  time: initialize in 0.47s[0m
+[0m2021.05.02 02:05:33 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.02 02:05:33 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.03 00:56:57 INFO  shutting down Metals[0m
+[0m2021.05.03 00:57:29 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.55.2.[0m
+[0m2021.05.03 00:57:29 INFO  time: initialize in 0.36s[0m
+[0m2021.05.03 00:57:29 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.03 00:57:29 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.03 04:16:09 INFO  shutting down Metals[0m
+[0m2021.05.09 16:28:18 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.56.0.[0m
+[0m2021.05.09 16:28:18 INFO  time: initialize in 0.37s[0m
+[0m2021.05.09 16:28:18 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.09 16:28:18 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.09 21:18:57 INFO  shutting down Metals[0m
+[0m2021.05.12 23:48:48 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.56.1.[0m
+[0m2021.05.12 23:48:49 INFO  time: initialize in 0.65s[0m
+[0m2021.05.12 23:48:49 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.12 23:48:49 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+ÎåÔÂ 12, 2021 11:49:56 ÏÂÎç org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+ÐÅÏ¢: Unsupported notification method: $/setTraceNotification
+[0m2021.05.13 01:20:44 INFO  shutting down Metals[0m
+[0m2021.05.13 10:21:44 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.56.1.[0m
+[0m2021.05.13 10:21:45 INFO  time: initialize in 0.51s[0m
+[0m2021.05.13 10:21:45 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.13 10:21:45 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.14 13:13:21 INFO  shutting down Metals[0m
+[0m2021.05.17 04:09:27 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.56.2.[0m
+[0m2021.05.17 04:09:28 INFO  time: initialize in 0.36s[0m
+[0m2021.05.17 04:09:28 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.17 04:09:28 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.17 21:20:31 INFO  shutting down Metals[0m
+[0m2021.05.17 23:35:02 INFO  Started: Metals version 0.10.2 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client vscode 1.56.2.[0m
+[0m2021.05.17 23:35:02 INFO  time: initialize in 0.35s[0m
+[0m2021.05.17 23:35:02 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.17 23:35:02 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
