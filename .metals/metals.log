@@ -571,3 +571,4 @@ object Task1 {
 [0m2021.05.17 23:35:02 INFO  time: initialize in 0.35s[0m
 [0m2021.05.17 23:35:02 WARN  Build server is not auto-connectable.[0m
 [0m2021.05.17 23:35:02 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.17 23:56:36 INFO  shutting down Metals[0m
