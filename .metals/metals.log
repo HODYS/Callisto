@@ -591,3 +591,12 @@ object Task1 {
 [0m2021.05.26 10:09:23 WARN  Build server is not auto-connectable.[0m
 [0m2021.05.26 10:09:23 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
 [0m2021.05.27 00:44:54 INFO  shutting down Metals[0m
+[0m2021.05.27 23:43:39 INFO  Started: Metals version 0.10.3 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.27 23:43:40 INFO  time: initialize in 0.94s[0m
+[0m2021.05.27 23:43:40 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.27 23:43:40 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+[0m2021.05.28 00:04:28 INFO  shutting down Metals[0m
+[0m2021.05.28 23:52:49 INFO  Started: Metals version 0.10.3 in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto' for client Visual Studio Code 1.56.2.[0m
+[0m2021.05.28 23:52:50 INFO  time: initialize in 0.95s[0m
+[0m2021.05.28 23:52:50 WARN  Build server is not auto-connectable.[0m
+[0m2021.05.28 23:52:50 WARN  no build tool detected in workspace 'C:\Users\51216\Desktop\Work\21win\Callisto'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
